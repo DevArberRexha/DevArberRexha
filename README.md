@@ -13,6 +13,9 @@ I ship production products in **TypeScript**, from the first requirement to the 
 - [Whenbird](https://whenbird.com): booking SaaS with availability rules, public booking pages and five languages. A PostgreSQL exclusion constraint makes double bookings impossible.
 - [Kujdo](https://kujdo.com): clinic booking for Kosovo, with a patient directory, a clinic console, an API and an Expo app.
 
-Most of my client work is in private repositories. A public example: [pritech-task-manager](https://github.com/DevArberRexha/pritech-task-manager), an Expo + TypeScript app with tests and CI.
+Most of my client work is in private repositories. Public examples:
+
+- [no-double-booking](https://github.com/DevArberRexha/no-double-booking): slot computation across time zones and DST, plus a PostgreSQL exclusion constraint proven against 25 concurrent inserts, with property tests (fast-check) and CI on real Postgres.
+- [pritech-task-manager](https://github.com/DevArberRexha/pritech-task-manager): an Expo + TypeScript app with tests and CI.
 
 📫 arberrexha.dev@gmail.com · [Portfolio](https://arber-rexha.vercel.app) · [LinkedIn](https://www.linkedin.com/in/arber-rexha-732767330)
